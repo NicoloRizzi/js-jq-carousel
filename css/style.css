@@ -1,6 +1,53 @@
 * {
   margin: 0;
-  border: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+
+.first {
+
+}
+
+.last {
+
+}
+
+.active {
+
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  border: 2px solid red;
+}
+
+
+
+
+.block-sx {
+  cursor: pointer;
+}
+
+.block-dx {
+  cursor: pointer;
+}
+
+.img-slide {
+  display: none;
+}
+
+.circle {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 10px;
+  background-color: grey;
+  cursor: pointer;
+}
+
+.pulsanti {
+  border: 2px solid black;
 }
