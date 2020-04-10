@@ -25,12 +25,18 @@ $(document).ready ( function (){
     var imageCurrent = $('.container-img .active');
     imageCurrent.removeClass('active');
     imageCurrent.next().addClass('active');
+    if (imageCurrent.hasClass('last')) {
+      imageFirst.addClass('active');
+    }
   });
 
   btnPrevious.click ( function (){
     var imageCurrent = $('.container-img .active');
     imageCurrent.removeClass('active');
     imageCurrent.prev().addClass('active');
+    if(imageCurrent.hasClass('first')) {
+      imageLast.addClass('active');
+    }
   });
 
   
