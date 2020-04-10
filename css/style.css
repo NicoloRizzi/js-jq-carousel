@@ -4,6 +4,36 @@
   box-sizing: border-box;
 }
 
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  border: 5px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.block-sx {
+  border: 5px solid blue;
+}
+
+.block-dx {
+  border: 5px solid blue;
+}
+
+i {
+  cursor: pointer;
+  font-size: 40px;
+}
+
+.img-slide {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
 
 .first {
 
@@ -13,30 +43,19 @@
 
 }
 
-.active {
-
-}
-
-.container {
-  width: 1170px;
-  margin: 0 auto;
-  border: 2px solid red;
-}
 
 
 
 
-.block-sx {
-  cursor: pointer;
-}
 
-.block-dx {
-  cursor: pointer;
-}
 
-.img-slide {
-  display: none;
-}
+
+
+
+
+
+
+
 
 .circle {
   height: 15px;
@@ -49,5 +68,5 @@
 }
 
 .pulsanti {
-  border: 2px solid black;
+  border: 5px solid lime;
 }
