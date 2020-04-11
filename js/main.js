@@ -15,7 +15,6 @@
 $(document).ready ( function (){
 
   $(document).keydown(function (event) {
-    console.log(event.keyCode);
     if(event.keyCode == 39) {
       var imageCurrent = $('.container-img .active');
       imageCurrent.removeClass('active');

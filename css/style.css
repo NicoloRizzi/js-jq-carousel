@@ -5,20 +5,22 @@
 }
 
 .container {
+  position: relative;
   width: 1200px;
   margin: 0 auto;
-  border: 5px solid red;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .block-sx {
-  border: 5px solid blue;
+  border: 3px solid #1ea5c2;
+  border-radius: 50%;
 }
 
 .block-dx {
-  border: 5px solid blue;
+  border: 3px solid #1ea5c2;
+  border-radius: 40%;
 }
 
 i {
@@ -52,21 +54,17 @@ i {
 
 
 
-
-
-
-
-
 .circle {
   height: 15px;
   width: 15px;
   border-radius: 50%;
   display: inline-block;
   margin: 10px;
-  background-color: grey;
+  background-color: #1ea5c2;
   cursor: pointer;
 }
 
 .pulsanti {
-  border: 5px solid lime;
+  position: absolute;
+  top: 100%;
 }
