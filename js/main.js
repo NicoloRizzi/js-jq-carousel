@@ -14,7 +14,7 @@
 
 $(document).ready ( function (){
 
-  $(document).keydown(function (event) {
+  $(document).keydown(function (event) { // INIZIO FUNZIONE ALL'EVENTO TASTIERA
     if(event.keyCode == 39) {
       var imageCurrent = $('.container-img .active');
       imageCurrent.removeClass('active');

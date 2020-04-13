@@ -14,13 +14,11 @@
 }
 
 .block-sx {
-  border: 3px solid #1ea5c2;
-  border-radius: 50%;
+
 }
 
 .block-dx {
-  border: 3px solid #1ea5c2;
-  border-radius: 40%;
+
 }
 
 i {
@@ -57,14 +55,14 @@ i {
 .circle {
   height: 15px;
   width: 15px;
+  border: 2px solid black;
   border-radius: 50%;
   display: inline-block;
   margin: 10px;
-  background-color: #1ea5c2;
   cursor: pointer;
 }
 
 .pulsanti {
   position: absolute;
-  top: 100%;
+  top: 100%; 
 }
